@@ -1,0 +1,53 @@
+﻿@model Common.Dto.LoginDto
+@{
+    ViewData["Title"] = "Login";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/Theme/css/main.css" type="text/css">
+    <title>ورود</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="rec-prism">
+
+            <div class="face face-front">
+                <div class="content">
+                    @if (TempData["Message"] != null)
+                    {
+                        <div class="alert alert-danger">
+                            <text>@TempData["Message"]</text>
+                        </div>
+                    }
+                    <h2>ورود به پنل سایت</h2>
+                    <form asp-action="Login" method="post">
+                        <div class="field-wrapper">
+                            <label>شماره همراه <span>*</span></label>
+                            <input type="text" name="PhoneNumber" id="PhoneNumber" placeholder="شماره خود را وارد کنید" required>
+
+                        </div>
+                        <div class="field-wrapper">
+                            <input type="submit" value="ورود">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="~/Theme/js/jquery-3.3.1.min.js"></script>
+    <script src="~/Theme/js/service-worker.js"></script>
+    <script src="~/Theme/js/javajscript.js"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>
+
+

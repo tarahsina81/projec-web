@@ -1,0 +1,27 @@
+$color-green: #336037;
+$color-gray: #9F9F9F;
+
+@font-face {
+    font-family: "vazir";
+    src: url("../fonts/Vazirmatn-Regular.ttf") format('ttf');
+    src: url("../fonts/Vazirmatn-Regular.woff2") format('woff2');
+}
+
+body{
+    direction: rtl;
+    background-color: #F4F5FA;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+@mixin fontStyle($fontweight:400, $fontSize:16px){
+    font-family: "vazir";
+    font-weight:$fontweight;
+    font-size: $fontSize;
+    line-height: 25px;
+}
+@mixin dFlex($justify, $align:center){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}

@@ -1,0 +1,12 @@
+.navbar{
+    @include dFlex(space-between);
+    .profile{
+        @include dFlex(space-between);
+        justify-self: end;
+        width: max-content;
+        border: 1px solid red;
+        .profileImage{
+            border: 1px solid red;
+        }
+    }
+}

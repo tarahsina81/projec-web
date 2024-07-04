@@ -1,0 +1,61 @@
+﻿@model Common.Dto.LoginDto
+@{
+    ViewData["Title"] = "LoginGetCode";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/Theme/css/main.css" type="text/css">
+    <title>ورود</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="rec-prism">
+
+            <div class="face face-front">
+                <div class="content">
+                    @if (TempData["Message"] != null)
+                    {
+                        <div class="alert alert-danger">
+                            <text>@TempData["Message"]</text>
+                        </div>
+                    }
+                    <h2>ورود به پنل سایت</h2>
+                    <form asp-action="LoginGetCode" method="post">
+                        <div class="field-wrapper">
+                            <input asp-for="PhoneNumber" class="form-control" type="hidden" />
+
+                        </div>
+                        <div class="field-wrapper">
+                            <input asp-for="ReturnUrl" class="form-control" type="hidden" />
+
+                        </div> 
+                        <div class="field-wrapper">
+                            <label>کد ارسال شده به شماره <span>@TempData["PhoneNumber"]</span> <span style="color: #666;"> را وارد کنید </span> </label>
+                            <input type="number" asp-for="SmsCode" placeholder="کد را وارد کنید" required>
+
+                        </div>
+                        <div class="field-wrapper">
+                            <input type="submit" value="ورود">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="~/Theme/js/jquery-3.3.1.min.js"></script>
+    <script src="~/Theme/js/service-worker.js"></script>
+    <script src="~/Theme/js/javajscript.js"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>
+
+
