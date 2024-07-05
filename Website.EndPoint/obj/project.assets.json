@@ -10908,11 +10908,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Star\\source\\repos\\projec-web\\Website.EndPoint\\Website.EndPoint.csproj",
+      "projectUniqueName": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Website.EndPoint\\Website.EndPoint.csproj",
       "projectName": "Website.EndPoint",
-      "projectPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Website.EndPoint\\Website.EndPoint.csproj",
+      "projectPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Website.EndPoint\\Website.EndPoint.csproj",
       "packagesPath": "C:\\Users\\Star\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Website.EndPoint\\obj\\",
+      "outputPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Website.EndPoint\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Star\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10929,14 +10929,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Star\\source\\repos\\projec-web\\Common\\Common.csproj": {
-              "projectPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Common\\Common.csproj"
+            "C:\\Users\\Star\\Source\\Repos\\projec-web\\Common\\Common.csproj": {
+              "projectPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Common\\Common.csproj"
             },
-            "C:\\Users\\Star\\source\\repos\\projec-web\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Domain\\Domain.csproj"
+            "C:\\Users\\Star\\Source\\Repos\\projec-web\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\Star\\source\\repos\\projec-web\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Persistence\\Persistence.csproj"
+            "C:\\Users\\Star\\Source\\Repos\\projec-web\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Persistence\\Persistence.csproj"
             }
           }
         }

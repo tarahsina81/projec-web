@@ -58,7 +58,7 @@ namespace Website.EndPoint.Areas.panel.Controllers
             user.PhoneNumber = userEdit.PhoneNumber;
             user.Email = userEdit.Email;
             user.UserName = userEdit.UserName;
-            user.UserStatus = userEdit.UserStatus;
+            user.UserStatus = user.UserStatus;
 
 			if (user.UserStatus == 0)
             {
@@ -84,7 +84,6 @@ namespace Website.EndPoint.Areas.panel.Controllers
 
 				if (result.Succeeded)
 				{
-					user.UserStatus = 1;
 					return Json(new ReslutDto
 					{
 						IsSuccess = true,

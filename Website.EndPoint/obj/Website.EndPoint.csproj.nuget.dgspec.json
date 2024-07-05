@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Star\\source\\repos\\projec-web\\Website.EndPoint\\Website.EndPoint.csproj": {}
+    "C:\\Users\\Star\\Source\\Repos\\projec-web\\Website.EndPoint\\Website.EndPoint.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Star\\source\\repos\\projec-web\\Application\\Application.csproj": {
+    "C:\\Users\\Star\\Source\\Repos\\projec-web\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Star\\source\\repos\\projec-web\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Star\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Application\\obj\\",
         "projectStyle": "PackageReference",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Star\\source\\repos\\projec-web\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Domain\\Domain.csproj"
+              "C:\\Users\\Star\\Source\\Repos\\projec-web\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Domain\\Domain.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "C:\\Users\\Star\\source\\repos\\projec-web\\Common\\Common.csproj": {
+    "C:\\Users\\Star\\Source\\Repos\\projec-web\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Star\\source\\repos\\projec-web\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Common\\Common.csproj",
+        "projectPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\Star\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Common\\obj\\",
+        "outputPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Star\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -138,12 +138,12 @@
         }
       }
     },
-    "C:\\Users\\Star\\source\\repos\\projec-web\\Domain\\Domain.csproj": {
+    "C:\\Users\\Star\\Source\\Repos\\projec-web\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Star\\source\\repos\\projec-web\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Star\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -204,12 +204,12 @@
         }
       }
     },
-    "C:\\Users\\Star\\source\\repos\\projec-web\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\Star\\Source\\Repos\\projec-web\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Star\\source\\repos\\projec-web\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Persistence\\Persistence.csproj",
+        "projectPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\Star\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
@@ -228,11 +228,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Star\\source\\repos\\projec-web\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Application\\Application.csproj"
+              "C:\\Users\\Star\\Source\\Repos\\projec-web\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Application\\Application.csproj"
               },
-              "C:\\Users\\Star\\source\\repos\\projec-web\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Domain\\Domain.csproj"
+              "C:\\Users\\Star\\Source\\Repos\\projec-web\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Domain\\Domain.csproj"
               }
             }
           }
@@ -295,14 +295,14 @@
         }
       }
     },
-    "C:\\Users\\Star\\source\\repos\\projec-web\\Website.EndPoint\\Website.EndPoint.csproj": {
+    "C:\\Users\\Star\\Source\\Repos\\projec-web\\Website.EndPoint\\Website.EndPoint.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Star\\source\\repos\\projec-web\\Website.EndPoint\\Website.EndPoint.csproj",
+        "projectUniqueName": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Website.EndPoint\\Website.EndPoint.csproj",
         "projectName": "Website.EndPoint",
-        "projectPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Website.EndPoint\\Website.EndPoint.csproj",
+        "projectPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Website.EndPoint\\Website.EndPoint.csproj",
         "packagesPath": "C:\\Users\\Star\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Website.EndPoint\\obj\\",
+        "outputPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Website.EndPoint\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Star\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -319,14 +319,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Star\\source\\repos\\projec-web\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Common\\Common.csproj"
+              "C:\\Users\\Star\\Source\\Repos\\projec-web\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Common\\Common.csproj"
               },
-              "C:\\Users\\Star\\source\\repos\\projec-web\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Domain\\Domain.csproj"
+              "C:\\Users\\Star\\Source\\Repos\\projec-web\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\Star\\source\\repos\\projec-web\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Persistence\\Persistence.csproj"
+              "C:\\Users\\Star\\Source\\Repos\\projec-web\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Persistence\\Persistence.csproj"
               }
             }
           }

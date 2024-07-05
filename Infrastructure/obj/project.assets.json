@@ -2936,9 +2936,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Star\\source\\repos\\projec-web\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Star\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
@@ -2957,11 +2957,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Star\\source\\repos\\projec-web\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Domain\\Domain.csproj"
+            "C:\\Users\\Star\\Source\\Repos\\projec-web\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\Star\\source\\repos\\projec-web\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Persistence\\Persistence.csproj"
+            "C:\\Users\\Star\\Source\\Repos\\projec-web\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Persistence\\Persistence.csproj"
             }
           }
         }
