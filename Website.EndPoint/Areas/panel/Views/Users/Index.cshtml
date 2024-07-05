@@ -56,9 +56,18 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.EmailConfirmed)
                 </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.UserStatus)
-                </td>
+            @if (@item.UserStatus == 0)
+            {
+                    <td>تکمیل اطلاعات (غیرفعال)</td>
+            }
+            else if (@item.UserStatus == 1)
+            {
+                    <td>بررسی مجدد اطلاعات</td>
+            }
+            else
+            {
+                    <td>فعال (تایید شده)</td>
+            }
                 <td>
                     @Html.DisplayFor(modelItem => item.AccessFailedCount)
                 </td>

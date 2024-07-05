@@ -52,8 +52,11 @@
             </div>
             <div class="form-group">
                 <label asp-for="UserStatus" class="control-label"></label>
-                <input asp-for="UserStatus" class="form-control" />
-                <span asp-validation-for="UserStatus" class="text-danger"></span>
+                <select asp-for="UserStatus" class="form-control">
+                    <option class="form-control" value="0">تکمیل اطلاعات (غیرفعال)</option>
+                    <option class="form-control" value="1">بررسی مجدد اطلاعات</option>
+                    <option class="form-control" value="2">فعال (تایید شده)</option>
+                </select>
             </div>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />

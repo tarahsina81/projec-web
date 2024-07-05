@@ -786,11 +786,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\Users\\Star\\source\\repos\\projec-web\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Application\\Application.csproj",
+      "projectPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\Star\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Application\\obj\\",
+      "outputPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Star\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -807,8 +807,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Star\\Source\\Repos\\projec-web\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Domain\\Domain.csproj"
+            "C:\\Users\\Star\\source\\repos\\projec-web\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Domain\\Domain.csproj"
             }
           }
         }

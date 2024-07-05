@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Star\\Source\\Repos\\projec-web\\Common\\Common.csproj": {}
+    "C:\\Users\\Star\\source\\repos\\projec-web\\Common\\Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Star\\Source\\Repos\\projec-web\\Common\\Common.csproj": {
+    "C:\\Users\\Star\\source\\repos\\projec-web\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\Star\\source\\repos\\projec-web\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Common\\Common.csproj",
+        "projectPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\Star\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Common\\obj\\",
         "projectStyle": "PackageReference",
