@@ -1,84 +1,89 @@
 ﻿@model IEnumerable<Website.EndPoint.Areas.panel.Models.Dto.UserListDto>
 
 @{
-    ViewData["Title"] = "Index";
-    Layout = "~/Views/Shared/_LayoutPanel.cshtml";
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_LayoutPanel.cshtml";
 }
 
-<h1>Index</h1>
+<div class="content-wrapper">
+	<div class="container-fluid">
+		<!-- Zero configuration table -->
+		<section id="configuration">
+			<div class="row">
+				<div class="col-12">
+					<div class="card">
+						<div class="card-header">
+							<div class="card-title-wrap bar-success">
+								<h4 class="card-title">لیست کاربران</h4>
+							</div>
+						</div>
+						<div class="card-body collapse show">
+							<div class="card-block card-dashboard">
+								<p class="card-text">لیست کاربران سایت</p>
+								<div id="DataTables_Table_0_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4">
+									<div class="row">
+										<div class="col-sm-12 col-md-12">
+											<div id="DataTables_Table_0_filter" class="dataTables_filter">
+												<a href="~/Panel/Users/Create" class="btn btn-success">افزودن کاربر جدید</a>
+											</div>
+										</div>
+									</div><div class="row">
+										<div class="col-sm-12">
+											<table class="table table-striped table-bordered zero-configuration dataTable" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
+												<thead>
+													<tr role="row">
+														<th class="sorting_asc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="نام: activate to sort column descending" style="width: 190.609px;">نام</th>
+														<th class="sorting_asc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="نام خانوادگی: activate to sort column descending" style="width: 190.609px;">نام خانوادگی</th>
+														<th class="sorting_asc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="نام کاربری: activate to sort column descending" style="width: 190.609px;">نام کاربری</th>
+														<th class="sorting_asc hide" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="شمراه همراه: activate to sort column descending" style="width: 190.609px;">شماره همراه</th>
+														<th class="sorting_asc hide" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="وضعیت حساب کاربر: activate to sort column descending" style="width: 190.609px;">وضعیت حساب کاربر</th>
+													</tr>
+												</thead>
+												<tbody>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.FirstName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.LastName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.UserName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PhoneNumber)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.EmailConfirmed)
-            </th>
-            <td>
-                @Html.DisplayNameFor(model => model.UserStatus)
-            </td>
-            <th>
-                @Html.DisplayNameFor(model => model.AccessFailedCount)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.FirstName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.LastName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.UserName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.PhoneNumber)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.EmailConfirmed)
-                </td>
-            @if (@item.UserStatus == 0)
-            {
-                    <td>تکمیل اطلاعات (غیرفعال)</td>
-            }
-            else if (@item.UserStatus == 1)
-            {
-                    <td>بررسی مجدد اطلاعات</td>
-            }
-            else
-            {
-                    <td>فعال (تایید شده)</td>
-            }
-                <td>
-                    @Html.DisplayFor(modelItem => item.AccessFailedCount)
-                </td>
-                <td>
-                    @Html.ActionLink("Edit", "Edit", "Users", new { id = item.Id, area = "Panel" }) |
-                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                    @Html.ActionLink("Delete", "Delete", "Users", new { id = item.Id, area = "Panel" })|
-                    @Html.ActionLink("Add Role", "AddUserRole", "Users", new { id = item.Id, area = "Panel" })|
-                    @Html.ActionLink("User Roles", "UserRoles", "Users", new { id = item.Id, area = "Panel" })
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+													@foreach (var item in Model)
+													{
+
+														<tr role="row" class="odd">
+															<td class="sorting_1">@Html.DisplayFor(modelItem => item.FirstName)</td>
+															<td class="sorting_1">@Html.DisplayFor(modelItem => item.LastName)</td>
+															<td>@Html.DisplayFor(modelItem => item.UserName)</td>
+															<td class="hide">@Html.DisplayFor(modelItem => item.PhoneNumber)</td>
+															@if (item.UserStatus == 0)
+															{
+																<td>تکمیل اطلاعات (غیرفعال)</td>
+															}
+															else if (item.UserStatus == 1)
+															{
+																<td>بررسی مجدد اطلاعات</td>
+															}
+															else
+															{
+																<td>فعال (تایید شده)</td>
+															}
+
+															<td>
+																<a class="btn btn-info" asp-action="UserRoles" asp-controller="Users" asp-route-id="@item.Id" asp-area="Panel">مشاهده نقش ها</a>
+																<a class="btn btn-success" asp-action="AddUserRole" asp-controller="Users" asp-route-id="@item.Id" asp-area="Panel">افزودن نفش</a>
+																<a class="btn btn-warning" asp-action="Edit" asp-controller="Users" asp-route-id="@item.Id" asp-area="Panel">ویرایش</a>
+																<a class="btn btn-danger" asp-action="Delete" asp-controller="Users" asp-route-id="@item.Id" asp-area="Panel">حذف</a>
+
+															</td>
+														</tr>
+													}
+
+
+												</tbody>
+											</table>
+										</div>
+									</div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="DataTables_Table_0_info" role="status" aria-live="polite">Showing 1 to 10 of 57 entries</div></div><div class="col-sm-12 col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="DataTables_Table_0_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="DataTables_Table_0_previous"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="0" tabindex="0" class="page-link">Previous</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="2" tabindex="0" class="page-link">2</a></li><li class="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="3" tabindex="0" class="page-link">3</a></li><li class="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="4" tabindex="0" class="page-link">4</a></li><li class="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="5" tabindex="0" class="page-link">5</a></li><li class="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="6" tabindex="0" class="page-link">6</a></li><li class="paginate_button page-item next" id="DataTables_Table_0_next"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="7" tabindex="0" class="page-link">Next</a></li></ul></div></div></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</div>
+

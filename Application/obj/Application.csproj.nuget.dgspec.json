@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Star\\source\\repos\\projec-web\\Application\\Application.csproj": {}
+    "C:\\Users\\Sina\\Source\\Repos\\projec-web\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Star\\source\\repos\\projec-web\\Application\\Application.csproj": {
+    "C:\\Users\\Sina\\Source\\Repos\\projec-web\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Star\\source\\repos\\projec-web\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Sina\\Source\\Repos\\projec-web\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Star\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Star\\Source\\Repos\\projec-web\\Application\\obj\\",
+        "projectPath": "C:\\Users\\Sina\\Source\\Repos\\projec-web\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Sina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sina\\Source\\Repos\\projec-web\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Star\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sina\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Star\\source\\repos\\projec-web\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Domain\\Domain.csproj"
+              "C:\\Users\\Sina\\Source\\Repos\\projec-web\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Sina\\Source\\Repos\\projec-web\\Domain\\Domain.csproj"
               }
             }
           }
@@ -74,21 +74,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Star\\source\\repos\\projec-web\\Domain\\Domain.csproj": {
+    "C:\\Users\\Sina\\Source\\Repos\\projec-web\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Star\\source\\repos\\projec-web\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Sina\\Source\\Repos\\projec-web\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Star\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Star\\source\\repos\\projec-web\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Sina\\Source\\Repos\\projec-web\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Sina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sina\\Source\\Repos\\projec-web\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Star\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sina\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -140,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
